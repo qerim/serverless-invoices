@@ -1,9 +1,5 @@
 <template>
     <tfoot>
-    <tr class="text-right">
-        <td :colspan="colspan">{{ $t('subtotal') }}</td>
-        <td>{{ invoice.subTotal | currency }}</td>
-    </tr>
     <tr class="text-right" v-for="tax in invoice.taxes" :key="tax.label">
         <td :colspan="colspan">
             {{ tax.label }} ({{ tax.rate }}%)

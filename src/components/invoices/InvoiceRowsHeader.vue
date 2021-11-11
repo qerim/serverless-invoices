@@ -3,7 +3,7 @@
         <tr>
             <th>{{ $t('item') }}</th>
             <th>{{ $t('quantity') }}</th>
-            <th>{{ $t('unit') }}</th>
+            <th></th>
             <th>{{ $t('price') }}</th>
             <th v-for="tax in taxes" :key="tax.id">
                 {{ tax.label }} %

@@ -14,13 +14,7 @@
                          :placeholder="$t('enter_quantity')"
                          @change="updateProp({ quantity: $event })"/>
         </td>
-        <td>
-            <AppEditable :value="row.unit"
-                         :errors="errors"
-                         :field="`rows.${index}.unit`"
-                         :placeholder="$t('enter_unit')"
-                         @change="updateProp({ unit: $event })"/>
-        </td>
+        <td></td>
         <td>
             <AppEditable :value="row.price | currency"
                          :errors="errors"

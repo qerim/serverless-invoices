@@ -1,7 +1,7 @@
 {
-   "item": "Item",
-   "quantity": "Quantity",
+   "item": "Task",
+   "quantity": "Hours",
    "unit": "Unit",
-   "price": "Price",
+   "price": "Hourly",
    "sum": "Sum"
 }
